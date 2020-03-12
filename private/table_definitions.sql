@@ -59,9 +59,3 @@ CREATE TABLE transactions (
 
 ALTER TABLE customer_details AUTO_INCREMENT=1000;
 ALTER TABLE transactions AUTO_INCREMENT=10000;
-
-INSERT INTO customer_details (
-  FirstName, LastName, FatherName, DOB, Gender, MobileNumber, Email,
-  Password, Address, City, District, PIN, State) VALUES (
-    '$FirstName', '$LastName', '$FatherName', '$DOB', '$Gender', '$MobileNumber', '$Email',
-    '$Password', '$Address', '$City', '$District', '$PIN', '$State');
