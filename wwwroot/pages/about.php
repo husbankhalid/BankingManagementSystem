@@ -27,7 +27,7 @@
             <a class="nav-link" href="<?php echo url_for('/index.php'); ?>">Home</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo url_for('/pages/open-account.php'); ?>">Open Account</a>
+            <a class="nav-link" href="<?php echo url_for('/pages/open-account.php#OpenAccount'); ?>">Open Account</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link active" href="<?php echo url_for('/pages/about.php'); ?>">About<span class="sr-only">(current)</a>

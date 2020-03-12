@@ -30,7 +30,7 @@
             <a class="nav-link active" href="#">Hello, <?php echo $_SESSION['FirstName']; ?> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo url_for('/user/staff/dashboard.php'); ?>">Dashboard</a>
+            <a class="nav-link" href="<?php echo url_for('/user/admin/dashboard.php'); ?>">Dashboard</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo url_for('/user/logout.php'); ?>">Logout</a>
