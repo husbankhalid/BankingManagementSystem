@@ -1,8 +1,8 @@
 # BankingManagementSystem
-BCA Major Project [BCA-16-605]
+#### BCA Major Project [BCA-16-605]
 
 # Website
-https://husbanbca.azurewebsites.net/
+#### URL: https://husbanbca.azurewebsites.net/
 
 # Introduction
 
@@ -173,5 +173,4 @@ desirable at all. Hence, great care is needed in the development of such
 Application.
 
 ##### Thanking You
-
 ##### Husban Khalid
