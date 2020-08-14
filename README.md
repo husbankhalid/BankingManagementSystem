@@ -39,11 +39,11 @@ to the Customers.
 
 # Platform Used
 
-## Hosting: The Application will be hosted on Microsoft Azure Cloud Platform using Web App + MySQL Service.
+### Hosting: The Application will be hosted on Microsoft Azure Cloud Platform using Web App + MySQL Service.
 
-## Fronted: The following technologies will be employed for developing the User Interface (UI) of the Application.
+### Fronted: The following technologies will be employed for developing the User Interface (UI) of the Application.
 
-### Technologies:
+#### Technologies:
 
     • HTML: Used to create the structure of the Web Application.
 
@@ -53,9 +53,9 @@ to the Customers.
 
     • PHP: Used to build the dynamic part of the UI.
 
-## Backend: Following technologies will be employed to design the backend of the Application.
+### Backend: Following technologies will be employed to design the backend of the Application.
 
-### Technologies:
+#### Technologies:
 
     • MySQL: MySQL is used as the primary language for creating, updating,
     deleting and fetching all the Database Components.
@@ -63,7 +63,7 @@ to the Customers.
     • PHP: PHP is used as a glue language to join the User Interface (UI) with
     the backend (Database) of the Application.
 
-## Common Tools: Following tools are used commonly for developing, deploying and testing the Application.
+### Common Tools: Following tools are used commonly for developing, deploying and testing the Application.
 
     • Atom, Visual Studio Code.
 
@@ -79,77 +79,77 @@ The Application has three users, which performs all the actions present in the
 Application. The users are Admin, Staff and Customers. The functionalities which
 are available for each users are mentioned below:
 
-  ### Admin:
+  #### Admin:
   
-     • Login
+     • Login.
      
-        ◦ View Dashboard
+        ◦ View Dashboard.
     
-        ◦ Add new Staff Members
+        ◦ Add new Staff Members.
 
-        ◦ View Staff Members
+        ◦ View Staff Members.
         
-        ◦ View Staff Details
+        ◦ View Staff Details.
 
-        ◦ Remove Staff Members
+        ◦ Remove Staff Members.
         
-        ◦ Approve Customers
+        ◦ Approve Customers.
 
-        ◦ View Approved Customers
+        ◦ View Approved Customers.
         
-        ◦ View Approved Customer Details
+        ◦ View Approved Customer Details.
         
-        ◦ View Unapproved Customers
+        ◦ View Unapproved Customers.
         
-        ◦ View Unapproved Customer Details
+        ◦ View Unapproved Customer Details.
         
-        ◦ Remove Customers    
+        ◦ Remove Customers.    
               
-        ◦ Logout
+        ◦ Logout.
       
       
-### Staff:
+#### Staff:
 
-     • Login
+     • Login.
         
-        ◦ View Dashboard
+        ◦ View Dashboard.
 
-        ◦ Approve Customers
+        ◦ Approve Customers.
 
-        ◦ View Approved Customers
+        ◦ View Approved Customers.
         
-        ◦ View Approved Customer Details
+        ◦ View Approved Customer Details.
         
-        ◦ View Unapproved Customers
+        ◦ View Unapproved Customers.
         
-        ◦ View Unapproved Customer Details
+        ◦ View Unapproved Customer Details.
         
-        ◦ Remove Customers       
+        ◦ Remove Customers.       
         
-        ◦ Cash Deposit
+        ◦ Cash Deposit.
 
-        ◦ Cash Withdrawal
+        ◦ Cash Withdrawal.
        
-        ◦ Change Password
+        ◦ Change Password.
 
-        ◦ Logout
+        ◦ Logout.
 
 
-### Customer:
+#### Customer:
 
-     • Login
+     • Login.
 
-        ◦ View Dashboard (Account Balance, Last Login Details)
+        ◦ View Dashboard (Account Balance, Last Login Details).
 
-        ◦ View Profile Details
+        ◦ View Profile Details.
 
-        ◦ View Transactions
+        ◦ View Transactions.
 
-        ◦ Fund transfer
+        ◦ Fund transfer.
                
-        ◦ Change Password
+        ◦ Change Password.
 
-        ◦ Logout
+        ◦ Logout.
     
     
 # Conclusion
