@@ -1,0 +1,194 @@
+/* Media Queries */
+
+@media (max-width: 576px) {
+  #site-title{
+    font-size: 1.1rem !important;
+    margin-bottom: 3px;
+  }
+  body > nav > button {
+    margin-bottom: 7px;
+  }
+  .center-div-xs {
+    margin: auto;
+  }
+  .header-title {
+    font-size: 3.35rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  a.nav-link:hover{
+    border-bottom: 3px solid #0f1629;
+    transition: 0.4s linear;
+  }
+  a.active {
+    border-bottom: 3px solid #0f1629;
+  }
+  a.nav-link {
+    margin-right: 2px;
+    color: #0f1629;
+  }
+  #contactMessage {
+    width: 45rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #contactMessage{
+    width: 35rem;
+  }
+}
+
+@media (max-width: 992px){
+  li.nav-item {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+  }
+  .navbar-collapse {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  nav {
+    padding-bottom: 0 !important;
+  }
+
+  .bold-text {
+    font-size: 1rem !important;
+  }
+}
+
+/* End of Media Queries */
+
+/* Navigation Bar section*/
+#site-title {
+  font-size: 1.7rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #0f1629;
+}
+
+.nav-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+}
+/* End of Navigation Bar section*/
+
+/* Generic Classes */
+.centeredXY {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* End of Generic Classes */
+
+/* Header section */
+div.header {
+  height: 100vh;
+  background-color: #0f1629;
+  position: relative;
+}
+
+.header-title {
+  color: white;
+  font-size: 3.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.header-paragraph {
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* End of Header section*/
+
+/* Conten Area */
+
+.content-area {
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.content-area-content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: 'Ubuntu', serif;
+  font-size: 1.1rem;
+}
+
+.content-area-heading {
+  font-family: 'Oswald', serif;
+  margin-bottom: 4rem;
+}
+
+.card {
+  margin-bottom: 4rem;
+}
+
+.rectangleButton {
+  border-radius: 0 !important;
+  margin-top: 10px;
+}
+.dashboard-button {
+  border-radius: 0 !important;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Form Area */
+.form-area {
+  height: auto;
+  background-color: #f5f5f5;
+}
+.form-area-content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-family: 'Ubuntu', serif;
+  font-size: 1.1rem;
+}
+.form-area-heading {
+  font-family: 'Oswald', serif;
+  margin-bottom: 30px;
+}
+.form-control {
+  border-radius: 0;
+  border: 1px solid #bbb;
+}
+input {
+  margin-bottom: 25px;
+}
+input.login {
+  margin-bottom: 10px;
+}
+select {
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 1.2rem;
+}
+
+/* End of Form Area */
+
+/* End of Content Area */
+
+/* Footer Area */
+
+.footer-text {
+  color: white;
+  padding-top: 1.8rem;
+  font-size: 0.9rem;
+}
+
+.footer {
+  height: 80px;
+  background-color: #0a2a66;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* End of Footer Area */
